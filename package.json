@@ -6,7 +6,7 @@
     "dev:backend": "nodemon backend/server.js",
     "dev:frontend": "cd frontend && npm run dev",
     "install:all": "cd backend && npm install && cd ../frontend && npm install",
-    "build": "npm run install:all"
+    "build": "npm run install:all && cd frontend && npm run build"
   },
   "keywords": [],
   "author": "",
