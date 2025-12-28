@@ -66,9 +66,7 @@ app.use('/api/events', require('./routes/events'));
 app.use('/api/requests', require('./routes/requests'));
 app.use('/api/guests', require('./routes/guests'));
 app.use('/api/feedback', require('./routes/feedback'));
-// Bookings & Schedules removed as requested in previous flow refinements
-// app.use('/api/bookings', require('./routes/bookings'));
-// app.use('/api/schedules', require('./routes/schedules'));
+
 
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
